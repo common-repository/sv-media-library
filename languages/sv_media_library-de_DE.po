@@ -1,0 +1,384 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SV Media Library\n"
+"POT-Creation-Date: 2019-07-24 12:55+0200\n"
+"PO-Revision-Date: 2019-07-24 13:13+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: sv_media_library.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: init.php:17
+msgid "SV Media Library"
+msgstr "SV Media Library"
+
+#. Description of the plugin/theme
+#: init.php:18
+msgid "This Plugin allows to set another upload-directory for WordPress."
+msgstr ""
+"Dieses Plugin erlaubt das Setzen eines anderen Upload-Verzeichnisses in "
+"WordPress."
+
+#: init.php:19
+msgid " does not collect or share any data"
+msgstr " sammelt und teilt keine Daten"
+
+#: lib/core_plugin/core/abstract.php:131 lib/core_plugin/core/abstract.php:147
+#: lib/core_plugin/core/abstract.php:163
+msgid "not defined"
+msgstr "nicht definiert"
+
+#: lib/core_plugin/core/abstract.php:462
+msgid "No Title defined."
+msgstr "Kein Titel definiert."
+
+#: lib/core_plugin/core/abstract.php:472
+msgid "No description defined."
+msgstr "Keine Beschreibung definiert."
+
+#: lib/core_plugin/core/abstract.php:481
+msgid "No privacy statement defined."
+msgstr "Keine Datenschutzerklärung definiert."
+
+#: lib/core_plugin/core/abstract.php:525
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: lib/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:3
+msgid "Start"
+msgstr "Start"
+
+#: lib/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:4
+msgid "Processing"
+msgstr "In Bearbeitung"
+
+#: lib/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:5
+msgid "Finished"
+msgstr "Beendet"
+
+#: lib/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:8
+msgid "Continue Import from Cycle"
+msgstr "Fortsetzen von Zyklus"
+
+#: lib/core_plugin/core/backend/tpl/about.php:5
+#: lib/core_plugin/core/backend/tpl/header.php:15
+msgid "About"
+msgstr "Über"
+
+#: lib/core_plugin/core/backend/tpl/about.php:10
+#: lib/core_plugin/core_plugin.php:39 lib/core_plugin/core_plugin.php:40
+msgid "Info"
+msgstr "Info"
+
+#: lib/core_plugin/core/backend/tpl/about.php:12
+#: lib/core_plugin/core/info/backend/tpl/about.php:12
+msgid "Name:"
+msgstr "Name:"
+
+#: lib/core_plugin/core/backend/tpl/about.php:13
+msgid "Version:"
+msgstr "Version:"
+
+#: lib/core_plugin/core/backend/tpl/about.php:17
+#: lib/core_plugin/core/info/backend/tpl/about.php:18
+msgid "Description"
+msgstr "Beschreibung"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:10
+msgid ""
+"This cheat sheet lists core methods you may want to use when developing own "
+"modules."
+msgstr ""
+"Dieses Cheatsheet listet die wichtigsten Methoden auf, die Sie bei der "
+"Entwicklung eigener Module verwenden möchten."
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:12
+msgid "get current url"
+msgstr "Aktuelle URL"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:13
+msgid "URL to current location"
+msgstr "URL zum aktuellen Standort"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:19
+msgid "Name of current instance:"
+msgstr "Name der aktuellen Instanz:"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:22
+msgid "Full hierarchy name:"
+msgstr "Voller Hierarchienname:"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:28
+msgid "Shortname (without namespace) of current hierarchy class"
+msgstr "Kurzname (ohne Namensraum) der aktuellen Hierarchieklasse"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:34
+msgid "Prefix by get_name:"
+msgstr "Präfix via get_name:"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:40
+msgid "Prefix by get_name, but root class replaced with sv_common:"
+msgstr "Präfix via get_name, aber root-Klasse durch sv_common ersetzt:"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:46
+msgid "Absolute path to instance:"
+msgstr "Absoluter Pfad zur Instanz:"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:52
+msgid "Absolute url to instance:"
+msgstr "Absolute URL zur Instanz:"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:58
+msgid "Absolute path to core:"
+msgstr "Absoluter Pfad zur Core:"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:64
+msgid "Absolute url to core:"
+msgstr "Absolute URL zur Core:"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:69
+msgid "Enqueue Admin Styles"
+msgstr "Enqueue Admin Styles"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:70
+msgid "Enqueue SV style for admin menu pages:"
+msgstr "Enqueue SV-Style für Admin-Menüseiten:"
+
+#: lib/core_plugin/core/backend/tpl/footer.php:10
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: lib/core_plugin/core/backend/tpl/header.php:16
+msgid "General info & description"
+msgstr "Allgemeine Infos & Beschreibung"
+
+#: lib/core_plugin/core/backend/tpl/header.php:20
+msgid "Core Docs"
+msgstr "Core Dokus"
+
+#: lib/core_plugin/core/backend/tpl/header.php:21
+msgid "Instance Core Methods"
+msgstr "Core Methoden der Instanz"
+
+#: lib/core_plugin/core/backend/tpl/header.php:26
+#: lib/core_plugin/core/backend/tpl/legal.php:5
+msgid "Legal Information"
+msgstr "Rechtliche Informationen"
+
+#: lib/core_plugin/core/backend/tpl/header.php:27
+msgid "Copyright & Usage"
+msgstr "Copyright & Nutzung"
+
+#: lib/core_plugin/core/backend/tpl/legal.php:9
+msgid "General Information"
+msgstr "Allgemeine Informationen"
+
+#: lib/core_plugin/core/backend/tpl/legal.php:11
+msgid "Project Website:"
+msgstr "Projekt-Website:"
+
+#. Author of the plugin/theme
+#: lib/core_plugin/core/backend/tpl/legal.php:11
+msgid "straightvisions GmbH"
+msgstr "straightvisions GmbH"
+
+#: lib/core_plugin/core/backend/tpl/legal.php:13
+msgid "License: GPL3 or later"
+msgstr "Lizenz: GPL3 oder höher"
+
+#: lib/core_plugin/core/backend/tpl/legal.php:25
+msgid "Privacy Statement"
+msgstr "Datenschutzerklärung"
+
+#: lib/core_plugin/core/core.php:89
+#: lib/core_plugin/core/info/backend/tpl/about.php:33
+msgid "Expert Mode"
+msgstr "Experten-Modus"
+
+#: lib/core_plugin/core/core.php:128 lib/core_plugin/core/core.php:147
+msgid "Setting saved"
+msgstr "Einstellung gespeichert"
+
+#: lib/core_plugin/core/core.php:142
+msgid "Nothing to update."
+msgstr "Nichts zu aktualisieren."
+
+#: lib/core_plugin/core/core.php:149
+msgid "You are unauthorized to perform this action."
+msgstr "Sie sind nicht berechtigt, diese Aktion durchzuführen."
+
+#: lib/core_plugin/core/core.php:152
+msgid "Nonce check cannot fail."
+msgstr "Nonce-Prüfung kann nicht fehlschlagen."
+
+#: lib/core_plugin/core/info/backend/tpl/about.php:13
+msgid "Active Core Version:"
+msgstr "Aktive Kernversion:"
+
+#: lib/core_plugin/core/info/backend/tpl/about.php:14
+msgid "Active Core Path:"
+msgstr "Aktiver Kernpfad:"
+
+#: lib/core_plugin/core/info/backend/tpl/about.php:20
+msgid ""
+"Our themes and plugins share a core which provides commonly used features. "
+"The core is included and shared within each plugin or theme, so make sure if "
+"you update one product, to update all others too."
+msgstr ""
+"Unsere Themen und Plugins teilen einen Kern, der die gängigen Funktionen "
+"bietet. Der Kern ist in jedem Plugin oder Theme enthalten und geteilt. "
+"Stelle möglichst sicher, dass wenn du ein Produkt aktualisierst, alle "
+"anderen auch auf dem aktuellen Stand sind."
+
+#: lib/core_plugin/core/info/backend/tpl/about.php:24
+msgid "Primary Instance"
+msgstr "Primäre Instanz"
+
+#: lib/core_plugin/core/info/backend/tpl/about.php:42
+msgid "Instances"
+msgstr "Instanzen"
+
+#: lib/core_plugin/core/info/backend/tpl/about.php:49
+msgid "This plugin version is outdated, please update this plugin!"
+msgstr ""
+"Diese Pluginversion ist nicht mehr aktuell, bitte aktualisiere das Plugin!"
+
+#: lib/core_plugin/core/info/backend/tpl/about.php:55
+msgid "Theme"
+msgstr "Theme"
+
+#: lib/core_plugin/core/info/backend/tpl/about.php:55
+msgid "Plugin"
+msgstr "Plugin"
+
+#: lib/core_plugin/core/info/backend/tpl/about.php:59
+msgid "Active"
+msgstr "Aktiv"
+
+#: lib/core_plugin/core/info/backend/tpl/about.php:59
+#: lib/core_plugin/core/scripts/scripts.php:91
+#: lib/core_plugin/core/scripts/scripts.php:101
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: lib/core_plugin/core/scripts/scripts.php:39
+msgid "Scripts"
+msgstr "Skripte"
+
+#: lib/core_plugin/core/scripts/scripts.php:40
+msgid "Override Scripts Loading."
+msgstr "Überschreib das Ladeverhalten von Scripts."
+
+#: lib/core_plugin/core/scripts/scripts.php:67
+msgid "Disable all CSS per Default"
+msgstr "Deaktiviere standardmäßig das Laden von CSS"
+
+#: lib/core_plugin/core/scripts/scripts.php:68
+msgid ""
+"CSS enqueued will be disabled by default - you may override this later down "
+"below."
+msgstr ""
+"CSS wird standardmäßig deaktiviert - du kannst das weiter unten jeweils "
+"überschreiben."
+
+#: lib/core_plugin/core/scripts/scripts.php:73
+msgid "Disable all JS per Default"
+msgstr "Deaktiviere standardmäßig das Laden von JS"
+
+#: lib/core_plugin/core/scripts/scripts.php:74
+msgid ""
+"JS enqueued will be disabled by default - you may override this later down "
+"below."
+msgstr ""
+"JS wird standardmäßig deaktiviert - du kannst das weiter unten jeweils "
+"überschreiben."
+
+#: lib/core_plugin/core/scripts/scripts.php:93
+#: lib/core_plugin/core/scripts/scripts.php:99
+msgid "Inline"
+msgstr "Inline"
+
+#: lib/core_plugin/core/scripts/scripts.php:93
+#: lib/core_plugin/core/scripts/scripts.php:100
+msgid "Attached"
+msgstr "Angehängt"
+
+#: lib/core_plugin/core/scripts/scripts.php:98
+msgid "Default"
+msgstr "Standard"
+
+#: lib/core_plugin/core/settings/modules/setting_group.php:49
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: lib/core_plugin/core/settings/modules/setting_group.php:78
+msgid "Entry"
+msgstr "Eintrag"
+
+#: lib/core_plugin/core/settings/modules/setting_group.php:78
+msgid "Group #"
+msgstr "Gruppe #"
+
+#: lib/core_plugin/core/settings/modules/setting_select_page.php:28
+msgid "No Page selected"
+msgstr "Keine Seite ausgewählt"
+
+#: lib/core_plugin/core/settings/modules/setting_upload.php:70
+msgid "Delete File"
+msgstr "Datei löschen"
+
+#: lib/core_plugin/core/settings/settings.php:228
+msgid "You need at least "
+msgstr "Du brauchst mindestens "
+
+#: lib/core_plugin/core_plugin.php:28 lib/core_plugin/core_plugin.php:29
+msgid "straightvisions"
+msgstr "straightvisions"
+
+#: lib/modules/sv_media_lib/sv_media_lib.php:17
+msgid "Media Library"
+msgstr "Medienbibliothek"
+
+#: lib/modules/sv_media_lib/sv_media_lib.php:18
+msgid "Settings for Media Library"
+msgstr "Einstellungen für die Mediathek"
+
+#: lib/modules/sv_media_lib/sv_media_lib.php:34
+msgid "Media Lib Path"
+msgstr "Mediathekpfad"
+
+#: lib/modules/sv_media_lib/sv_media_lib.php:35
+msgid "Absolute path to media library base directory, replacing default "
+msgstr ""
+"Absoluter Pfad zum Basisverzeichnis der Mediathek, der den Standard ersetzt "
+
+#: lib/modules/sv_media_lib/sv_media_lib.php:39
+msgid "Media Lib URL"
+msgstr "Mediathek-URL"
+
+#: lib/modules/sv_media_lib/sv_media_lib.php:40
+msgid "Absolute URL to media library directory, replacing default "
+msgstr ""
+"Absolute URL zum Basisverzeichnis der Mediathek, die den Standard ersetzt "
+
+#. Plugin URI of the plugin/theme
+msgid "https://straightvisions.com/"
+msgstr "https://straightvisions.com/"
+
+#. Author URI of the plugin/theme
+msgid "https://straightvisions.com"
+msgstr "https://straightvisions.com"
